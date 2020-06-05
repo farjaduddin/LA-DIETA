@@ -1,0 +1,237 @@
+.nav1{
+    background-color: #f8f9fa;
+    padding: 1% 2%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.nav1items{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    /* flex-wrap: wrap; */
+
+}
+.nav1items li{
+    list-style-type: none;
+}
+.logo a{
+    color: #75a10f;
+    font-size: 150%;
+    text-decoration: none;
+}
+.logo a:hover{
+    border: 2px solid #323f15;
+}
+
+.navbar{
+    /* background-color: #02979f !important; */
+    background-color: white;
+    width: 100%;
+    
+}
+
+.navbarbackground{
+    height:100px;
+}
+.navbar a{
+    color: black !important;
+}
+.nav-item a{
+    font-size: larger;
+    font-weight: bold;
+    color: black !important;
+    transition: all 0.5s ease 0s;
+}
+
+.nav-item a:hover{
+    border:1px solid black;
+    /* font-size: 20px; */
+    /* margin-left: 5%; */
+    color: #8fc60b !important;
+    margin-top: 3%;
+}
+.navbar a:hover {
+    color: #8fc60b !important;
+}
+.mg-left{
+    margin-left: 100px;
+}
+.support{
+    margin-top: 2%;
+    color: #8fb60f;
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.support div{
+    display: flex;
+    width: 300px;
+    padding: 0.5%;
+    text-align: center;
+    
+    
+    -moz-box-shadow: 0 0 10px #777777;
+    -webkit-box-shadow: 0 0 10px #777777;
+    box-shadow: 0 0 10px #777777;
+    border: 1px solid #323f15;
+    border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
+    -moz-border-radius: 1em 4em 1em 4em
+    / 2em 1em 2em 1em;
+    -webkit-border-radius: 1em 4em 1em 4em
+    / 2em 1em 2em 1em;
+
+    
+}
+.support div h3 {
+    margin-left: 5%;
+    color: #58595b;
+}
+.support div i{
+    margin-left: 5%;
+}
+@media only screen and (max-width: 616px) {
+    .support div {
+      width: 80%;
+      margin-top: 2%;
+      margin-bottom: 2%;
+    }
+  }
+
+  @media only screen and (max-width: 916px) {
+    .support div {
+      
+      margin-top: 2%;
+      margin-bottom: 2%;
+    }
+  }  
+  @media only screen and (max-width: 400px) {
+    .support div {
+      width: 100%;
+      margin-top: 2%;
+      margin-bottom: 2%;
+    }
+  }    
+.top-sellers{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}  
+.top-sellers-item-1{
+    text-align: center;
+    width: 250px;
+
+}
+.top-sellers-item-1 img{
+    width: 245px;
+    height: 195px;
+}
+.top-sellers-item-1:hover{
+    border: 2px solid #323f15;
+    border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
+    -moz-border-radius: 1em 4em 1em 4em
+    / 2em 1em 2em 1em;
+    -webkit-border-radius: 1em 4em 1em 4em
+    / 2em 1em 2em 1em;
+}
+.PO{
+    /* width: 100%; */
+    margin: 0 10%;
+    padding: 10px;
+    margin-bottom: 2%;
+    border: 2px solid #323f15;
+    border-radius: 35px;
+    color: #58595b;
+    text-align: center;
+
+    -moz-box-shadow: 0 0 10px #777777;
+    -webkit-box-shadow: 0 0 10px #777777;
+    box-shadow: 0 0 10px #777777;
+    border: 1px solid #323f15;
+    border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
+    -moz-border-radius: 1em 4em 1em 4em
+    / 2em 1em 2em 1em;
+    -webkit-border-radius: 1em 4em 1em 4em
+    / 2em 1em 2em 1em;
+}
+.PO div h1{
+    margin-bottom: 5%;
+}
+.PO div div a{
+    text-decoration: none;
+    color: #58595b;
+}
+.PO div div a:hover{
+    color: #8fb60f;
+    
+    
+}
+.products{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.card-items{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+.card-items div{
+    margin-bottom: 3%;
+}
+.card-items div img{
+    height: 300px;
+}
+
+.footer{
+    margin: 0 10%;
+    padding: 5% 5% 0% 5%;
+    background-color: #51524e;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.footer1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.footer1 div{
+    width: 200px;
+}
+.footer1 div p{
+    padding-top: 2%;
+}
+
+.aboutusimage{
+    width: 100%;
+    
+}
+
+@media only screen and (max-width: 600px){
+
+    .comingsoon img{
+        width: 100%;
+    }
+}
